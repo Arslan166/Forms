@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table</title>
+	<link rel="stylesheet"  href="assets/css/style.css">
+	<link rel="stylesheet"  href="assets/css/all.min.css">
+	
+</head>
+<body>
+<div class="box">
+<div class="bar">
+<ul>
+<li><i class="fas fa-check-circle checked-bar"></i></li>
+<li><p class="size">Personal Information</P></li>
+<li><p class="v"></p></li>
+</ul>
+<ul>
+<li><i class="fas fa-check-circle checked-bar"></i></li>
+<li><p class="size">Bank Information</P></li>
+<li><p class="v"></p></li>
+</ul>
+<ul>
+<li><i class="fas fa-check-circle checked-bar"></i></li>
+<li><p class="size">Confirm Details</P></li>
+</ul>
+</div>
+<form class="information">
+<div class="setting">
+<label for="Name-first" class="set-first">First Name:</label><br>
+<input type="text" id="Name-first" Name="name" value="" placeholder="xyz"/>
+<label for="Name-last" class="set-last">Last Nsme:</label><br>
+<input type="text" id="Name-last" Name="name" value="" placeholder="zyx"/>
+</div>
+<div class="radio-btn">
+Gender:
+<input type="radio"class="option-radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" class="option-radio" id="Female" name="gender" value="female">
+<label for="Female">Female</label><br>
+</div>
+<br>
+<div class="addresss">
+<label for="address" class="location">Addres Location:</label><br>
+<input type="text" id="address" Name="name" value="" placeholder="city name /street number /country" />
+<i class="fas fa-map-marker-alt checked"></i>
+</div>
+<div class="phone-code">
+<label for="number" class="code-set">Phone Number:</label><br><br>
+<input type="tel" id="number" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+1 777 888 8888" />
+<label for="code" class="code-set-zip">Zip Code:</label><br>
+<input type="text" id="code" pattern="[0-9]{5}" title="Five digit zip code" />
+</div>
+<div class="datebirth">
+<label class="set-bod">Date of Birth:</label>
+<select name="days">
+<option value="Days" disabled selected hidden>Day</option>
+<option value="15">15</option>
+</select>
+<select name="Month">
+<option value="Month" disabled selected hidden>Month</option>
+<option value="Jan">Jan</option>
+</select>
+<select name="Years">
+<option value="Years" disabled selected hidden>2018</option>
+<option value="2018">2018</option>
+</select>
+</div>
+<i class="fas fa-chevron-circle-right size-set"></i>
+</form>
+</div>
+</body>
+</html>
